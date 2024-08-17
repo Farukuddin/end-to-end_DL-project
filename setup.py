@@ -1,7 +1,7 @@
 import setuptools
 
-with open('README.md','r',encoding = 'utf-8') as f:
-    lon_description = f.read()
+with open("README.md","r",encoding = 'utf-8') as f:
+    long_description = f.read()
 
 
 
@@ -19,8 +19,8 @@ setuptools.setup(
     author = AUTHOR_USER_NAME,
     author_email = AUTHOR_EMAIL,
     description="A pyhton pacakge for CNN app",
-    long_description = long_description,
-    long_description_content = "text/markdown",
+    Long_description = long_description,
+    Long_description_content = "text/markdown",
     url = f"https://github.com/{AUTHOR_USER_NAME}/{REPO_NAME}",
     project_urls  = {
         "Bug Tracker" : f"https://github.com/{AUTHOR_USER_NAME}/{REPO_NAME}/issues",
